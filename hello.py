@@ -2,6 +2,7 @@
 # single line comment
 # this is multi line comment
 # This is my 1st python code
+print()
 print("Hi, This is my 1st python code")
 print("hello python")
 
@@ -30,3 +31,20 @@ Path:D:\\Data\n""") #this will work without escape sequence because we are using
 
 #exercise
 print("Your Learning Path:\n\t- Python Basics \n\t- Data Enginerring \n\t- AI\n")
+
+#variable is a container that holds data. It is a way to store and manipulate data in a program. In Python, you can create a variable by assigning a value to it using the equal sign (=). For example:
+name="Aishwarya"
+print("my name is", name)
+print(name, "is learning python to become expert in it")
+language="python"
+print("my name is", name, "and I am learning",language,"to become expert in it\n")   
+name="Baraa"
+#python os executed line by line so the value of name will be updated to "baraa" and the output will be "baraa is learning python to become expert in it"
+print(name, "is already a expert in it\n")
+
+#exercise
+channel_name="datawithbaraa"
+print("info@"+channel_name+".com")
+print("support@"+channel_name+".com")
+print("www"+channel_name+".com")
+print()
