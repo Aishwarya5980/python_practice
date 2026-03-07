@@ -48,3 +48,13 @@ print("info@"+channel_name+".com")
 print("support@"+channel_name+".com")
 print("www"+channel_name+".com")
 print()
+
+#input in python
+#Dynamic input from user
+name=input('eetr your name:');
+#hard coded input
+country='USA'
+print("my name is", name, "is from", country)
+
+print()
+print("I have so far learnt print, input, comment and variables")
